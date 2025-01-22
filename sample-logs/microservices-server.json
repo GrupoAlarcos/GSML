@@ -1,0 +1,40 @@
+{
+
+"//":"informacion del proyecto:",
+"00":"Interpretado sin declarar variables",
+	"project":"Microservices",
+	"versions":["microservices-server"],
+	"testcases":["city100","city200","city300","city400","city500","city600","city700","city800","city900","city1000","route100","route200","route300","route400","route500","route600","route700","route800","route900","route1000"],
+	"measurements":"30",
+	"executions":"1",
+
+"0//":"informacion para EETHAN:",
+	"config_v":"false",
+	"end_v":"true",
+	"config_tc":"false",
+	"end_tc":"false",
+	"config_m":"true",
+	"end_m":"true",
+
+	"compile":"false",
+	"result":"false",
+
+"1//":"informacion para ELLIOT:",
+	"allMeasurements":"false",
+	"firstValidValue":"1064.0",
+	"lastValidValue":"1588.0",
+	
+	"time":"true",
+	"hdd":"true",
+	"graphicsCard":"true",
+	"process":"true",
+	"monitor":"false",
+	"dut":"true",
+
+	"img_hdd":"false",
+	"img_graphicsCard":"false",
+	"img_process":"false",
+	"img_monitor":"false",
+	"img_dut":"true"
+
+}
