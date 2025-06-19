@@ -97,6 +97,11 @@ The first image shows all the information of a measurement.
 The second image shows all the information of a test case.
 ![](resources/testcase_example.PNG)
 
+On the other hand, there are the files "testcases_averages__comparison" and "versions_averages_comparison" that compare each test case and software entity respectively.
+
+In addition, there are the documents with the statistics for each testcase and software entity:
+"testcases_Mann-WhitneyUTest", "versions_Mann-WhitneyUTest" and "versions_spearman".
+
 #### Img folder
 The img folder contains the graphs of the overall consumption in the execution of each measurement performed. It also includes the box plots of each device for each test case and for each entity software.
 
