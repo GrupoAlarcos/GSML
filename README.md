@@ -76,7 +76,9 @@ It is structured as follows:
 
 ```
 To facilitate the comparison of information, the file "testcases_total" contains one sheet for each statistical value of all test cases. These statistical values are:
-Consumption average without baseline, Consumption average (with baseline), Baseline, Power average without baseline, Power average (with baseline) and Standard deviation among measurments 
+Consumption average without baseline, Consumption average (with baseline), Baseline, Power average without baseline, Power average (with baseline) and Standard deviation among measurments.
+
+Baseline is the idle consumption that has been subtracted for each test case. To obtain this, the idle consumption of the test case is measured 30 times before and after its execution. If they are equal, the value of the measurement prior to the execution of the test case is used. Should the idle values before and after the measurement differ, the measurement is repeated.
 
 ![](resources/testcases_total_example.PNG)
 
